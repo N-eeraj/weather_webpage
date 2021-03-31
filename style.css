@@ -23,6 +23,7 @@ form{
 }
 
 input{
+	padding: 1% 0;
 	border: 0;
 	outline: 0;
 }
@@ -92,6 +93,9 @@ footer{
 
 @media(min-width:1000px)
 {
+	input{
+		padding: 0;
+	}
 	#card{
 		padding: 4% 1%;
 	}
