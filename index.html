@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width">
+		<title>Weather App</title>
+		<link rel='shortcut icon' type=image/x-icon href=images/icon.png>
+		<link rel=stylesheet type=text/css href=style.css>
+		<script src=script.js></script>
+	</head>
+	<body>
+		<form>
+			<input type=text id=search placeholder='   Enter City Name'></input>
+			<input type=button id=btn type=submit value=Search onclick=getWeather()>
+		</form>
+		<div id=card>
+			<div id=deg><h1 id=temperature>0</h1><span id=c>&nbsp°C</span></div>
+			<h2 id=location>0</h2>
+			<img id=icon src='images/icon.png'>
+			<h2 id=weather>0</h2>
+		</div>
+		<footer>Powered by OpenWeatherMap</footer>
+	</body>
+</html>
